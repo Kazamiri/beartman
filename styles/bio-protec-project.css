@@ -64,7 +64,7 @@
 
     .mob_container {
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 32px;
+        border-radius: 8px;
         padding-top: 0px;
         padding-left: 32px;
         padding-right: 32px;
@@ -85,21 +85,21 @@
     }
 
     .mob_container__card--screen-1 {
-        grid-row-end: span 400;
+        grid-row-end: span 297;
     }
     .mob_container__card--screen-2 {
-        grid-row-end: span 142;
+        grid-row-end: span 490;
     }
 
     .mob_container__card--screen-3 {
-        grid-row-end: span 242;
+        grid-row-end: span 393;
     }
     .mob_container__card--screen-4 {
-        grid-row-end: span 245;
+        grid-row-end: span 132;
     }
 
     .mob_container__card--screen-5 {
-        grid-row-end: span 140;
+        grid-row-end: span 502;
     }
 
     .mob_container__card--screen-6 {
@@ -126,7 +126,7 @@
     }
 
     .mob_container__card--imag{
-        border-radius: 16px;
+        border-radius: 8px;
         max-width: 100%;
         box-shadow: var(--shodow-screen-light);
     }
@@ -135,11 +135,11 @@
         margin-left: 4%;
         font-family: var(--font-default);
         font-style: normal;
-        font-weight: var(--font-weight-bold);
+        font-weight: var(--font-weight-default);
         font-size: var(--h6-headline-size);
         line-height: var(--h6-headline-height);
         letter-spacing: var(--h6-headline-spacing);
-        color: var(--labels-light-1-primary-label-color);  
+        color: var(--labels-light-2-secondary-label-color);  
     }
 
     
@@ -154,7 +154,7 @@
 @media all and (min-width: 768px) and (max-width: 992px){
     .project-cont__body {
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 32px;
+        border-radius: 8px;
         padding-top: 32px;
         padding-left: 24px;
         padding-right: 24px;
@@ -165,7 +165,7 @@
     }
     .project-cont-mob{
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 32px;
+        border-radius: 8px;
         padding-top: 48px;
         padding-left: 32px;
         padding-right: 32px;
@@ -195,12 +195,12 @@
     }
 
     .project-cont__cover--imag {
-        border-radius: 16px;
+        border-radius: 8px;
     }
 
     .project-cont__body {
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 16px;
+        border-radius: 8px;
         padding-top: 24px;
         padding-left: 8px;
         padding-right: 8px;
@@ -211,7 +211,7 @@
     }
 
     .project-cont__body--imag {
-        border-radius: 16px;
+        border-radius: 8px;
         max-width: 100%;
         max-height: 100%;
         box-shadow: var(--shodow-screen-light);
@@ -232,7 +232,7 @@
         margin-top: 8px;
         margin-left: 8px;
         position: fixed;
-        border-radius: 32px;
+        border-radius: 8px;
         background: var(--backgrounds-overlay-views-overlay-dark);
         padding-top: 8px;
         padding-right: 16px;
@@ -254,7 +254,7 @@
 
     .mob_container {
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 16px;
+        border-radius: 8px;
         padding-top: 0px;
         padding-left: 8px;
         padding-right: 8px;
@@ -277,12 +277,12 @@
     }
 
     .project-cont__cover--imag {
-        border-radius: 16px;
+        border-radius: 8px;
     }
 
     .project-cont__body {
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 16px;
+        border-radius: 8px;
         padding-top: 24px;
         padding-left: 8px;
         padding-right: 8px;
@@ -293,7 +293,7 @@
     }
 
     .project-cont__body--imag {
-        border-radius: 16px;
+        border-radius: 8px;
         max-width: 100%;
         max-height: 100%;
         box-shadow: var(--shodow-screen-light);
@@ -314,7 +314,7 @@
         margin-top: 8px;
         margin-left: 8px;
         position: fixed;
-        border-radius: 32px;
+        border-radius: 8px;
         background: var(--backgrounds-overlay-views-overlay-dark);
         padding-top: 8px;
         padding-right: 12px;
@@ -336,7 +336,7 @@
 
     .mob_container {
         background: var(--backgrounds-light-2-system-background-secondary);
-        border-radius: 16px;
+        border-radius: 8px;
         padding-top: 0px;
         padding-left: 8px;
         padding-right: 8px;
