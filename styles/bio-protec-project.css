@@ -103,26 +103,25 @@
     }
 
     .mob_container__card--screen-6 {
-        grid-row-end: span 310;
+        grid-row-end: span 384;
     }
     .mob_container__card--screen-7 {
-        grid-row-end: span 340;
+        grid-row-end: span 449;
     }
     .mob_container__card--screen-8 {
-        grid-row-end: span 82;
+        grid-row-end: span 328;
     }
-
     .mob_container__card--screen-9 {
-        grid-row-end: span 267;
+        grid-row-end: span 543;
     }
     .mob_container__card--screen-10 {
-        grid-row-end: span 204;
+        grid-row-end: span 509;
     }
     .mob_container__card--screen-11 {
-        grid-row-end: span 192;
+        grid-row-end: span 474;
     }
     .mob_container__card--screen-12 {
-        grid-row-end: span 229;
+        grid-row-end: span 220;
     }
 
     .mob_container__card--imag{
@@ -140,6 +139,10 @@
         line-height: var(--h6-headline-height);
         letter-spacing: var(--h6-headline-spacing);
         color: var(--labels-light-2-secondary-label-color);  
+    }
+
+    .footer-space{
+        height: 80px;
     }
 
     
@@ -221,11 +224,11 @@
         margin-left: 6%;
         font-family: var(--font-default);
         font-style: normal;
-        font-weight: var(--font-weight-bold);
+        font-weight: var(--font-weight-default);
         font-size: var(--h6-headline-size);
         line-height: var(--h6-headline-height);
         letter-spacing: var(--h6-headline-spacing);
-        color: var(--labels-light-1-primary-label-color); 
+        color: var(--labels-light-2-secondary-label-color); 
     }
 
     .nav-proj {
@@ -303,11 +306,11 @@
         margin-left: 6%;
         font-family: var(--font-default);
         font-style: normal;
-        font-weight: var(--font-weight-bold);
+        font-weight: var(--font-weight-default);
         font-size: var(--h6-headline-size);
         line-height: var(--h6-headline-height);
         letter-spacing: var(--h6-headline-spacing);
-        color: var(--labels-light-1-primary-label-color); 
+        color: var(--labels-light-2-secondary-label-color); 
     }
 
     .nav-proj {
