@@ -538,10 +538,6 @@ button:active{
         margin-right: 24px;
     }
 
-    .logo-style {
-        flex-grow: 4;
-    }
-
 }
 
 @media all and (min-width: 576px) and (max-width: 767px){

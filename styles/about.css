@@ -304,9 +304,18 @@
         gap: 24px;
     }
 
+    .about-prim__image {
+        position: relative;
+        flex: 5;
+    }
+
+    .about-prim__image--line {
+        max-width: 88%;
+    }
+
     .about-prim__article {
         flex: 7;
-        margin-left: 48px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
         margin-top: 0px;
@@ -353,6 +362,11 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 24px;
+    }
+
+    .about-prim__image {
+        position: relative;
+        flex: 5;
     }
 
     .about-prim__article {
