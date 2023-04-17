@@ -419,6 +419,16 @@
         letter-spacing: var(--h4-headline-spacing);
         color: var(--labels-dark-1-primary-label-color);
     }
+
+    .skills--main-title{
+        font-family: var(--font-default);
+        font-style: normal;
+        font-weight: var(--font-weight-bold);
+        font-size: var(--h4-headline-size);
+        line-height: var(--h4-headline-height);
+        letter-spacing: var(--h4-headline-spacing);
+        color: var(--labels-dark-1-primary-label-color); 
+    }
 }
 
 @media all and (min-width: 576px) and (max-width: 768px){
