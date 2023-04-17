@@ -549,6 +549,9 @@ button:active{
         margin-left: 16px;
         margin-right: 16px;
     }
+
+    nav {
+        flex-grow: 24;}
 }
 
 @media all and (min-width: 320px) and (max-width: 576px){
@@ -561,6 +564,7 @@ header{
     margin-top: 12px;
     margin-left: 16px;
     margin-right: 16px;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 8px;

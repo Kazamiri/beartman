@@ -290,12 +290,133 @@
             border: 1px solid transparent; 
         }
         
-@media all and (max-width: 992px){
+@media all and (min-width: 1200px) and (max-width: 1400px){
 
 }
 
-@media all and (max-width: 576px){
- 
+@media all and (min-width: 992px) and (max-width: 1200px){
+
+    .about-prim {
+        margin-top: 88px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .about-prim__article {
+        flex: 7;
+        margin-left: 48px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        gap: 8px;
+    }
+    .about-sec {
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+    .about-sec__article {
+        flex: 7;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        gap: 64px;
+    }
+    .educ {
+        margin-top: 88px;
+    }
+
+    .exper-skills-group {
+        margin-top: 109px;
+    }
+    .title-2-style {
+        font-family: var(--font-default);
+        font-style: normal;
+        font-weight: var(--font-weight-bold);
+        font-size: var(--h3-headline-size);
+        line-height: var(--h3-headline-height);
+        letter-spacing: var(--h3-headline-spacing);
+        color: var(--labels-dark-1-primary-label-color);
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    .about-prim {
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .about-prim__article {
+        flex: 7;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -16px;
+        gap: 8px;
+    }
+
+    .about-sec {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+    .about-sec__article {
+        flex: 7;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        gap: 64px;
+    }
+
+    .educ {
+        margin-top: 88px;
+    }
+
+    .exper-skills-group {
+        margin-top: 109px;
+    }
+
+    .paragraph-0-style {
+        font-family: var(--font-default);
+        font-style: normal;
+        font-weight: var(--font-weight-default);
+        font-size: var(--b1-body-size);
+        line-height: var(--b1-body-height);
+        letter-spacing: var(--b1-body-spacing);
+        color: var(--labels-dark-2-secondary-label-color);
+        margin: 0;
+    }
+
+    .title-2-style {
+        font-family: var(--font-default);
+        font-style: normal;
+        font-weight: var(--font-weight-bold);
+        font-size: var(--h4-headline-size);
+        line-height: var(--h4-headline-height);
+        letter-spacing: var(--h4-headline-spacing);
+        color: var(--labels-dark-1-primary-label-color);
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px){
+
+}
+
+@media all and (min-width: 320px) and (max-width: 576px){
+            
     .about-prim{
         margin-top: 48px;
         flex-direction: column;
@@ -405,3 +526,29 @@
         gap: 32px;
         }
 }
+
+
+
+
+
+/* 
+@media all and (min-width: 1200px) and (max-width: 1400px){
+    
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+
+}
+
+@media all and (min-width: 576px) and (max-width: 768px){
+
+}
+
+@media all and (min-width: 320px) and (max-width: 576px){
+
+}
+*/
