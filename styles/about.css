@@ -348,7 +348,7 @@
 
 @media all and (min-width: 768px) and (max-width: 992px){
     .about-prim {
-        margin-top: 48px;
+        margin-top: 64px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -357,15 +357,15 @@
 
     .about-prim__article {
         flex: 7;
-        margin-left: 0px;
+        margin-left: 8px;
         display: flex;
         flex-direction: column;
         margin-top: -16px;
-        gap: 8px;
+        gap: 12px;
     }
 
     .about-sec {
-        margin-top: 24px;
+        margin-top: 48px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -381,11 +381,11 @@
     }
 
     .educ {
-        margin-top: 88px;
+        margin-top: 64px;
     }
 
     .exper-skills-group {
-        margin-top: 109px;
+        margin-top: 72px;
     }
 
     .paragraph-0-style {
@@ -408,6 +408,16 @@
         letter-spacing: var(--h4-headline-spacing);
         color: var(--labels-dark-1-primary-label-color);
         margin: 0;
+    }
+
+    .educ--main-title {
+        font-family: var(--font-default);
+        font-style: normal;
+        font-weight: var(--font-weight-bold);
+        font-size: var(--h4-headline-size);
+        line-height: var(--h4-headline-height);
+        letter-spacing: var(--h4-headline-spacing);
+        color: var(--labels-dark-1-primary-label-color);
     }
 }
 
