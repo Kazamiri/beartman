@@ -513,7 +513,7 @@ button:active{
         margin-right: 32px;
     }
 }
-@media all and (min-width: 992px) and (max-width: 1200px){
+@media all and (min-width: 992px) and (max-width: 1199px){
     
     .main-style {
         margin-left: 24px;
@@ -526,7 +526,7 @@ button:active{
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 992px){
+@media all and (min-width: 768px) and (max-width: 991px){
     .main-style {
         margin-left: 24px;
         margin-right: 24px;
@@ -544,7 +544,7 @@ button:active{
 
 }
 
-@media all and (min-width: 576px) and (max-width: 768px){
+@media all and (min-width: 576px) and (max-width: 767px){
     .main-style {
         margin-left: 16px;
         margin-right: 16px;
@@ -560,7 +560,7 @@ button:active{
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 576px){
+@media all and (min-width: 320px) and (max-width: 575px){
 
 .main-style {
     margin-left: 16px;

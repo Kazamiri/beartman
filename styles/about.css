@@ -294,7 +294,7 @@
 
 }
 
-@media all and (min-width: 992px) and (max-width: 1200px){
+@media all and (min-width: 992px) and (max-width: 1199px){
 
     .about-prim {
         margin-top: 88px;
@@ -346,7 +346,7 @@
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 992px){
+@media all and (min-width: 768px) and (max-width: 991px){
     .about-prim {
         margin-top: 64px;
         display: flex;
@@ -357,7 +357,7 @@
 
     .about-prim__article {
         flex: 7;
-        margin-left: 8px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
         margin-top: -16px;
@@ -431,11 +431,119 @@
     }
 }
 
-@media all and (min-width: 576px) and (max-width: 768px){
+@media all and (min-width: 576px) and (max-width: 767px){
 
+    .about-prim{
+        margin-top: 48px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+        .about-prim__image__shadow--blur{
+            filter: blur(80px);
+        }
+    
+        .about-prim__article{
+            margin-left: 0px;
+            flex-direction: column;
+            margin-top: 0px;
+            gap: 24px;
+        }
+        
+    .about-sec{
+        margin-top: 48px;
+        flex-direction: column;
+        gap: 24px;
+    }
+        .about-sec__article{
+            order: 2;
+            margin-right: 0px;
+            flex-direction: column;
+            margin-top: 0px;
+            gap: 24px;
+        }
+
+    .educ{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+      }
+      
+        .educ--main-title{
+            font-family: var(--font-default);
+            font-style: normal;
+            font-weight: var(--font-weight-bold);
+            font-size: var(--h3-headline-size);
+            line-height: var(--h3-headline-height);
+            letter-spacing: var(--h3-headline-spacing);
+            color: var(--labels-dark-1-primary-label-color); 
+        }
+    
+        .educ__instit-spec-date{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 12px;
+        }
+    
+        .educ__instit-spec-date--institution-title{
+            font-family: var(--font-default);
+            font-style: normal;
+            font-weight: var(--font-weight-bold);
+            font-size: var(--h5-headline-size);
+            line-height: var(--h5-headline-height);
+            letter-spacing: var(--h5-headline-spacing);
+            color: var(--labels-dark-1-primary-label-color);
+        }
+    
+        .educ__speciality-date{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 0px;
+        }
+    
+        .educ__speciality-date--speciality{
+            font-family: var(--font-default);
+            font-style: normal;
+            font-weight: var(--font-weight-default);
+            font-size: var(--s1-subtitle-size-size);
+            line-height: var(--s1-subtitle-size-height);
+            letter-spacing: var(--s1-subtitle-size-spacing);
+            color: var(--labels-dark-1-primary-label-color);
+        }
+    
+        .educ__speciality-date--date{
+            font-family: var(--font-default);
+            font-style: italic;
+            font-weight: var(--font-weight-default);
+            font-size: var(--s1-subtitle-size-size);
+            line-height: var(--s1-subtitle-size-height);
+            letter-spacing: var(--s1-subtitle-size-spacing);
+            color: var(--labels-dark-2-secondary-label-color);
+        }
+    .exper-skills-group{
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 64px;
+    }
+    .exper{
+        gap: 32px;
+    }
+    .skills{
+        gap: 32px;
+    }
 }
 
-@media all and (min-width: 320px) and (max-width: 576px){
+@media all and (min-width: 320px) and (max-width: 575px){
             
     .about-prim{
         margin-top: 48px;
@@ -544,7 +652,7 @@
     }
     .skills{
         gap: 32px;
-        }
+    }
 }
 
 
@@ -556,19 +664,19 @@
     
 }
 
-@media all and (min-width: 992px) and (max-width: 1200px){
+@media all and (min-width: 992px) and (max-width: 1199px){
     
 }
 
-@media all and (min-width: 768px) and (max-width: 992px){
+@media all and (min-width: 768px) and (max-width: 991px){
 
 }
 
-@media all and (min-width: 576px) and (max-width: 768px){
+@media all and (min-width: 576px) and (max-width: 767px){
 
 }
 
-@media all and (min-width: 320px) and (max-width: 576px){
+@media all and (min-width: 320px) and (max-width: 575px){
 
 }
 */
