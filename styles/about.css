@@ -369,6 +369,10 @@
         flex: 5;
     }
 
+    .about-prim__image--line {
+        max-width: 94%;
+    }
+
     .about-prim__article {
         flex: 7;
         margin-left: 0px;
