@@ -163,6 +163,18 @@
     .globe-cont {
         margin-top: 0px;
     }
+
+    .contact-sec__contact--title {
+        align-self: center;
+    }
+
+    .contact-sec__contact__email-phone--email{
+        align-self: center;
+    }
+
+    .contact-sec__contact__email-phone--phone{
+        align-self: center;
+    }
     
 
 }
