@@ -1,0 +1,37 @@
+@import url(text.css);
+@import url(color.css);
+
+.nav-proj{
+    margin-top: 8px;
+    margin-left: 8px;
+    position: fixed;
+    border-radius: 24px;
+    background: var(--backgrounds-overlay-views-overlay-dark);
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+}
+    .pictogram-24m{
+        margin-bottom: -8px;
+        padding-right: 4px;
+        width: 24px;
+        height: 24px;
+    }
+        
+.project-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.project-cont__cover--imag{
+    border-radius: 32px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
