@@ -1,34 +1,37 @@
 @import url(text.css);
 @import url(color.css);
 
-body{
-    background-color: var(--system-backgrounds-dark-1-system-background-primary);
+.nav-proj{
+    margin-top: 8px;
+    margin-left: 8px;
+    position: fixed;
+    border-radius: 24px;
+    background: var(--backgrounds-overlay-views-overlay-dark);
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
 }
-
-.wrapper {
-    margin: auto;
-    max-width: 1296px;
-}
-
-.full-block{
-    margin-top: 40px;
-    display: flex; 
+    .pictogram-24m{
+        margin-bottom: -8px;
+        padding-right: 4px;
+        width: 24px;
+        height: 24px;
+    }
+        
+.project-cont{
+    display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.image-block{
-    position: relative;
-    }
-
-.imag-styles{
+.project-cont__cover--imag{
     border-radius: 32px;
     max-width: 100%;
     max-height: 100%;
-}
-@media all and (max-width: 600px){
-    .imag-styles {border-radius: 16px;}
-    .full-block {gap: 12px;}
 }
 
 
