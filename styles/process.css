@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    gap: 24px;
+    gap: 64px;
 }
 
     .about-prim__image{
@@ -47,9 +47,4 @@
         gap: 48px;
     }
 
-    .about-prim__article__step{
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-    }
 
