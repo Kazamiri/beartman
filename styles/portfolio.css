@@ -393,7 +393,7 @@ a{
     z-index: -1;
     filter: blur(80px);
     background: linear-gradient(185.83deg, #3862F8 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #E06930 69.69%, #DA1482 87.93%) border-box;
-    animation: animate 30s linear infinite;
+    animation: animate 20s linear infinite;
 }
 
 .content-text-description-book-project{
@@ -488,17 +488,22 @@ button{
     border: 1px solid transparent; 
 }
 
-button:hover{
-    background: linear-gradient(#323338, #323338) padding-box,
-    linear-gradient(102.73deg, #3862F8 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #E06930 69.69%, #DA1482 87.93%) border-box;
-    border: 1px solid transparent; 
-}
+    button:hover{
+        background: linear-gradient(#323338, #323338) padding-box,
+        linear-gradient(102.73deg, #3862F8 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #E06930 69.69%, #DA1482 87.93%) border-box;
+        border: 1px solid transparent; 
+    }
 
-button:active{
-    background: linear-gradient(#292A30, #292A30) padding-box,
-    linear-gradient(102.73deg, #3862F8 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #E06930 69.69%, #DA1482 87.93%) border-box;
-    border: 1px solid transparent; 
-}
+    button:active{
+        background: linear-gradient(#292A30, #292A30) padding-box,
+        linear-gradient(102.73deg, #3862F8 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #E06930 69.69%, #DA1482 87.93%) border-box;
+        border: 1px solid transparent; 
+    }
+
+    .button-resize-butoon {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
 
 @media all and (min-width: 1200px) and (max-width: 1400px){
     
