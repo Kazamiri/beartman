@@ -47,4 +47,8 @@
         gap: 48px;
     }
 
+    .strong--color{
+        color: var(--labels-dark-1-primary-label-color);
+    }
+
 
