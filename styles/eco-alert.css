@@ -129,6 +129,33 @@
     .mob_container__card--screen-14 {
         grid-row-end: span 165;
     }
+    .mob_container__card--screen-15 {
+        grid-row-end: span 542;
+    }
+    .mob_container__card--screen-16 {
+        grid-row-end: span 219;
+    }
+    .mob_container__card--screen-17 {
+        grid-row-end: span 201;
+    }
+    .mob_container__card--screen-18 {
+        grid-row-end: span 130;
+    }
+    .mob_container__card--screen-19 {
+        grid-row-end: span 122;
+    }
+    .mob_container__card--screen-20 {
+        grid-row-end: span 235;
+    }
+    .mob_container__card--screen-21 {
+        grid-row-end: span 93;
+    }
+    .mob_container__card--screen-22 {
+        grid-row-end: span 231;
+    }
+    .mob_container__card--screen-23 {
+        grid-row-end: span 97;
+    }
 
     .mob_container__card--imag{
         border-radius: 8px;
