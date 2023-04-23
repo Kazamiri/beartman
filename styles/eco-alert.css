@@ -85,43 +85,49 @@
     }
 
     .mob_container__card--screen-1 {
-        grid-row-end: span 297;
+        grid-row-end: span 552;
     }
     .mob_container__card--screen-2 {
-        grid-row-end: span 490;
+        grid-row-end: span 608;
     }
 
     .mob_container__card--screen-3 {
-        grid-row-end: span 393;
+        grid-row-end: span 92;
     }
     .mob_container__card--screen-4 {
-        grid-row-end: span 132;
+        grid-row-end: span 92;
     }
 
     .mob_container__card--screen-5 {
-        grid-row-end: span 502;
+        grid-row-end: span 470;
     }
 
     .mob_container__card--screen-6 {
-        grid-row-end: span 384;
+        grid-row-end: span 526;
     }
     .mob_container__card--screen-7 {
-        grid-row-end: span 449;
+        grid-row-end: span 92;
     }
     .mob_container__card--screen-8 {
-        grid-row-end: span 328;
+        grid-row-end: span 106;
     }
     .mob_container__card--screen-9 {
-        grid-row-end: span 543;
+        grid-row-end: span 270;
     }
     .mob_container__card--screen-10 {
-        grid-row-end: span 509;
+        grid-row-end: span 68;
     }
     .mob_container__card--screen-11 {
-        grid-row-end: span 474;
+        grid-row-end: span 390;
     }
     .mob_container__card--screen-12 {
-        grid-row-end: span 220;
+        grid-row-end: span 453;
+    }
+    .mob_container__card--screen-13 {
+        grid-row-end: span 270;
+    }
+    .mob_container__card--screen-14 {
+        grid-row-end: span 165;
     }
 
     .mob_container__card--imag{

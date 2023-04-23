@@ -403,7 +403,7 @@ a{
         left: 24%;
         z-index: -1;
         filter: blur(80px);
-        background: linear-gradient(185.83deg, #3862F8 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #E06930 69.69%, #DA1482 87.93%) border-box;
+        background: linear-gradient(185.83deg, #70C6BB 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #D1E435 69.69%, #70C6BB 87.93%) border-box;
         animation: animate 20s linear infinite;
     }
 
@@ -454,6 +454,51 @@ a{
     }
 
     .book-cont__description{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        flex: 6;
+    }
+
+.eco-cont{
+    margin-top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+    .eco-cont__imag{
+        position: relative;
+        flex: 6;
+    }
+
+    .eco-cont__imag--imag-size{
+        max-width: 93%;
+        max-height: 93%;
+        margin-left: 6%;
+    }
+
+    .eco-cont__imag__shadow{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .eco-cont__imag__shadow--size{
+        border-radius: 84px;
+        transform: rotate(20deg);
+        position: absolute;
+        top: 0%;
+        right: 30%;
+        bottom: 0%;
+        left: 30%;
+        z-index: -1;
+        filter: blur(80px);
+        background: linear-gradient(185.83deg, #70C6BB 5.23%, #70C6BB 21.57%, #88EB77 30.84%, #ACED57 36.34%, #D1E435 42.94%, #EDCD32 51.54%, #ECB229 59.03%, #D1E435 69.69%, #D1E435 87.93%) border-box;
+        animation: animate 20s linear infinite;
+    }
+
+    .eco-cont__description{
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -676,6 +721,17 @@ button{
             filter: blur(56px);
         }
 
+    .eco-cont {
+        margin-top: 160px;
+    }
+
+        .eco-cont__description {
+            gap: 16px;
+        }
+
+        .eco-cont__imag__shadow--size {
+            filter: blur(56px);  
+        }
 
     .title-2-style{
         font-family: var(--font-default);
@@ -797,6 +853,22 @@ button{
 
         .book-cont__imag__shadow--size{
             filter: blur(48px);
+        }
+
+    .eco-cont {
+        margin-top: 160px;
+    }
+    
+        .eco-cont__description {
+            gap: 16px;
+        }
+    
+        .eco-cont__imag__shadow--size {
+            top: 10%;
+            right: 30%;
+            bottom: 10%;
+            left: 30%;
+            filter: blur(48px);  
         }
 
 
@@ -1191,7 +1263,47 @@ button{
             gap: 24px;
         }
 
+    .eco-cont{
+        margin-top: 124px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
     }
+
+        .eco-cont__imag{
+            position: relative;
+            order: 1;
+        }
+
+        .eco-cont__imag--imag-size{
+            max-width: 98%;
+            max-height: 98%;
+            margin-left: 0%;
+        }
+
+        .eco-cont__imag__shadow{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .eco-cont__imag__shadow--size{
+            top: 8%;
+            right: 30%;
+            bottom: 8%;
+            left: 30%;
+            filter: blur(56px);
+        }
+
+        .eco-cont__description{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            order: 2;
+        }
+
+}
 
     @media all and (min-width: 320px) and (max-width: 575px){
 
@@ -1541,6 +1653,46 @@ button{
             display: flex;
             flex-direction: column;
             gap: 24px;
+        }
+
+    .eco-cont{
+        margin-top: 124px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+        .eco-cont__imag{
+            position: relative;
+            order: 1;
+        }
+
+        .eco-cont__imag--imag-size{
+            max-width: 98%;
+            max-height: 98%;
+            margin-left: 0%;
+        }
+
+        .eco-cont__imag__shadow{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .eco-cont__imag__shadow--size{
+            top: 10%;
+            right: 30%;
+            bottom: 10%;
+            left: 30%;
+            filter: blur(42px);
+        }
+
+        .eco-cont__description{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            order: 2;
         }
 
 }
