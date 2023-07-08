@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alphabet</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="icon/favicon.png">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+          <main class="main-style">
+
+            <div class="letter-container">
+              <div class="play-question-container">
+                <button class="button-play"><img class="button-play__icon" src="icon/48-play.svg" alt=""></button>
+                <button class="button-question"><img src="icon/24-question.svg" alt=""></button>
+              </div>
+              <div class="js-main-letter">
+              </div>
+              <div class="star-container">
+              </div>
+            </div>
+
+            <div class="card-grid js-card-grid">
+            </div> 
+            
+
+            <div class="navigation-container">
+              <button id="previousPage" class="button-navigate"></button>
+              <button id="menuPage" class="button-navigate"><img src="icon/24-menu.svg" alt=""></button>
+              <button id="refrechPage" class="button-navigate"><img src="icon/24-return.svg" alt=""></button>
+              <button id="nextPage" class="button-navigate"></button>
+            </div>
+
+            <dialog class="js-modal modal">
+
+              <div class="letter-modal js-letter-modal">
+                <img class="letter-image-modal" src="images/a.webp" alt="">
+              </div>
+
+              <div class="star-modal star-container-modal">
+              </div>
+              
+              <p id="textPageModal" class="comentriu-modal"></p>
+
+              <div class="navigation-container">
+                <button id="previousPageModal" class="button-navigate"></button>
+                <button id="menuPageModal" class="button-navigate"><img src="icon/24-menu.svg" alt=""></button>
+                <button id="refrechPageModal" class="button-navigate"><img src="icon/24-return.svg" alt=""></button>
+                <button id="nextPageModal" class="button-navigate"></button>
+              </div>
+
+            </dialog>
+
+            <dialog class="modal-alfabet js-modal-alfabet" >
+              <p class="titlu-alfabet">Alfabetul</p>
+              <div class="alfabet-grid">
+                <div class="alfabet-grid-card">
+                </div>
+              </div>
+              <button id="reset-alfabet" class="button-navigate button-navigate-single"><img src="icon/24-return.svg" alt="">Resetare</button>
+            </dialog>
+
+          </main>
+          <script src="letters-data.js"></script>
+          <script src="script-2.js"></script>
+    </body>
+</html>
