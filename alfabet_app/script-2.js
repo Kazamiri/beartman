@@ -56,7 +56,6 @@ function updatePage() {
   lightStar();
 } // Funcția dată reînoiește informația de pe pagină.
 
-
 function updateHeader() {
   const headerLetter = allLetter.find((headInfo) => headInfo.id === pageNum); // Extragere obiectului cu toată informația ce ține e literă. 
 
@@ -73,34 +72,28 @@ function updateHeader() {
   document.getElementById('previousPageModal').innerHTML = `<img src="icon/24-left.svg" alt="">${headerLetter.previousLetter}`; // Adaugă litera precedentă în pop-up.
 
   const playFirst = document.querySelector('.button-play');
+  playFirst.addEventListener('click', playAudio);
 
-  playFirst.removeEventListener('click', playAudio); // Remove previous click event listener
 
-  playFirst.dataset.audioSrc = headerLetter.audioletter; // Store audio source as a data attribute
-
-  playFirst.addEventListener('click', playAudio); // Add new click event listener
-
-  function playAudio() {
-    const audioSrc = this.dataset.audioSrc; // Get the stored audio source
-    const audioLetter = new Audio(audioSrc); // Create a new Audio object with the audio source
-    audioLetter.play();
-  }
 
   const playQuestion = document.querySelector('.button-question');
+  playQuestion.addEventListener('click', playQuest);
 
-  playQuestion.removeEventListener('click', playQuest); // Remove previous click event listener
-
-  playQuestion.dataset.audioSrc = headerLetter.audioQuestion; // Store audio source as a data attribute
-
-  playQuestion.addEventListener('click', playQuest); // Add new click event listener
-
-  function playQuest() {
-    const audioSrc = this.dataset.audioSrc; // Get the stored audio source
-    const audioLetter = new Audio(audioSrc); // Create a new Audio object with the audio source
-    //audioLetter.volume = 0.9;
-    audioLetter.play();
-  }
 }
+
+function playAudio() {
+  const headerLetter = allLetter.find((headInfo) => headInfo.id === pageNum);
+  const audioLetter = new Audio(headerLetter.audioletter);
+  audioLetter.play();
+}
+
+function playQuest() {
+  const headerLetter = allLetter.find((headInfo) => headInfo.id === pageNum);
+  const audioLetter = new Audio(headerLetter.audioQuestion); 
+  audioLetter.play();
+}
+
+
 
 
 function updateCards() {
