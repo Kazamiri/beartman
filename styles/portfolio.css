@@ -12,17 +12,17 @@
   }
   
   ::-webkit-scrollbar-thumb {
-  border-radius: var(--corner-radius-xxl, 32px);
-  background: var(--color-backgrounds-tertiary, #202123);
+  border-radius: 32px;
+  background: #202123;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-backgrounds-quaternary, #27282A);
+  background:  #27282A;
   }
   
   ::-webkit-scrollbar-track {
-  border-radius: var(--corner-radius-xxl, 32px);
-  border: 1px solid var(--color-backgrounds-tertiary, #202123);
+  border-radius: 32px;
+  border: 1px solid #202123;
   background: rgba(26, 27, 29, 0.50);
   }
   
