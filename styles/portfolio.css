@@ -7,6 +7,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  border-radius: var(--corner-radius-xxl, 32px);
+  background: var(--color-backgrounds-tertiary, #202123);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: var(--color-backgrounds-quaternary, #27282A);
+  }
+  
+  ::-webkit-scrollbar-track {
+  border-radius: var(--corner-radius-xxl, 32px);
+  border: 1px solid var(--color-backgrounds-tertiary, #202123);
+  background: rgba(26, 27, 29, 0.50);
+  }
+  
 
 html{
     scroll-behavior: smooth;
