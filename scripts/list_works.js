@@ -2,9 +2,45 @@ const myProjects = [
   {
     // ================ Aici este indicat continutul ================
     positioning:'right',
+    id:'profit',
+    title: `App for competing in simulated trading tournaments`,
+    description: `I recently completed the design of an Android app tailored for simulated trading tournaments. The app allows users to compete in virtual trading, testing their strategies in real-time markets. It features an intuitive interface, real-time leaderboards, and user-friendly analytics, enhancing the competitive trading experience.`,
+    role:`Product Designer`,
+    creationDate:`May 2024 - July 2024`,
+    linkToProject:`profit.html`,
+    coverImage:{
+      first:`portofolio/cover-pro-1.avif`,
+      second:`portofolio/cover-pro-2.avif`,
+      third:`portofolio/cover-pro-3.avif`,
+      fourth:`portofolio/cover-pro-4.avif`,
+      aspectRatio:`1272 / 1687`
+    },
+    shadowStyle:`pro-cont__imag__shadow--size-shadow`
+  },
+  {
+    // ================ Aici este indicat continutul ================
+    positioning:'left',
+    id:'alfa-app',
+    title:`"Alphabet" learning app for small children`,
+    description: `I created a fun and educational app called "Alphabet" for young children to learn the alphabet. The app features engaging visuals and interactive activities to make learning enjoyable. The interface is easy to use, and the animations are captivating, creating an immersive learning environment.`,
+    role:`Product Designer and Front-end Developer`,
+    creationDate:`June 2023 - July 2023`,
+    linkToProject:`alfabet_app/alphabet.html`,
+    coverImage:{
+      first:`portofolio/cover-alfa-app_1.webp`,
+      second:`portofolio/cover-alfa-app_2.webp`,
+      third:`portofolio/cover-alfa-app_3.webp`,
+      fourth:`portofolio/cover-alfa-app_4.webp`,
+      aspectRatio:`636 / 671`
+    },
+    shadowStyle:`book-cont__imag__shadow--size`
+  },
+  {
+    // ================ Aici este indicat continutul ================
+    positioning:'right',
     id:'begin_portfolio',
     title: `App for online ads board “999”`,
-    description: `As a designer, I recently redesigned a bulletin board app that simplifies user search and communication. The app's easy-to-use interface allows you to post announcements and updates quickly. In addition, users can easily access the app from their mobile devices, making it a convenient solution for busy professionals.`,
+    description: `As a designer, I redesigned a bulletin board app that simplifies user search and communication. The app's easy-to-use interface allows you to post announcements and updates quickly. In addition, users can easily access the app from their mobile devices, making it a convenient solution for busy professionals.`,
     role:`Product Designer`,
     creationDate:`July 2021 - December 2021`,
     linkToProject:`app-ios.html`,
@@ -124,24 +160,6 @@ const myProjects = [
       aspectRatio:`424 / 493`
     },
     shadowStyle:`eco-cont__imag__shadow--size`
-  },
-  {
-    // ================ Aici este indicat continutul ================
-    positioning:'left',
-    id:'alfa-app',
-    title:`"Alphabet" learning app for small children`,
-    description: `I created a fun and educational app called "Alphabet" for young children to learn the alphabet. The app features engaging visuals and interactive activities to make learning enjoyable. The interface is easy to use, and the animations are captivating, creating an immersive learning environment.`,
-    role:`Product Designer and Front-end Developer`,
-    creationDate:`June 2023 - July 2023`,
-    linkToProject:`alfabet_app/alphabet.html`,
-    coverImage:{
-      first:`portofolio/cover-alfa-app_1.webp`,
-      second:`portofolio/cover-alfa-app_2.webp`,
-      third:`portofolio/cover-alfa-app_3.webp`,
-      fourth:`portofolio/cover-alfa-app_4.webp`,
-      aspectRatio:`636 / 671`
-    },
-    shadowStyle:`book-cont__imag__shadow--size`
   },
 
 ]
